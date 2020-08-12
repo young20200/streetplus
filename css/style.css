@@ -52,16 +52,22 @@
     height: 400px;  
     background-repeat: no-repeat;
 }
-.background-button{
-    width: 150px;
-    height: 38px;
-    border-radius: 10px;
-    background-color: #13BAF6;
+.background:hover{
+    filter: brightness(50%);
+}
+
+.text0-2{
+    font-size: 40px;
+    font-weight: bold;
     color: white;
-    border: none;
-    position: relative;
-    top: 300px;
-    left: 100px;
+    margin-left: 100px;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+
+.text0-3{
+    margin-left: 100px;
     
 }
 .backg1{
@@ -239,7 +245,7 @@
 .sec6-5{
     font-size: 14px;
     line-height: 23px;
-    
+
 }
 .text6-0{
     margin-left: 170px;
