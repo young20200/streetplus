@@ -9,7 +9,11 @@
 }
 .navbar-brand{
     margin-left: 50px !important;
+    
+
 }
+
+
 .control1{
     width: 70px;
     height: 35px;
@@ -17,6 +21,14 @@
 }
 .nav-link{
     color: black !important;
+}
+.nav-link:hover{
+    color: white !important;
+    background-color: #13BAF6 !important;
+}
+.dropdown-item:hover{
+    color: white !important;
+    background-color: #13BAF6 !important;
 }
 .form-inline{
     margin-right: 100px !important;
@@ -227,6 +239,7 @@
 .sec6-5{
     font-size: 14px;
     line-height: 23px;
+    
 }
 .text6-0{
     margin-left: 170px;
@@ -290,6 +303,10 @@
     width: 50px;
     height: 50px;
     margin-top: 10px;
+}
+.footer12:hover{
+    text-decoration: #13BAF6 underline;
+    
 }
 .footer8{
     width: 200px;
@@ -367,8 +384,35 @@
     color: rgb(32, 30, 30);
     border: 1px solid transparent;
     box-shadow: 2px 2px 10px gray;
-   
+    animation-name: lightSpeedIn;
+    animation-duration: 2s;
 
+}
+@keyframes lightSpeedIn {
+    0% {
+        -webkit-transform: translateX(100%) skewX(-30deg);
+        -ms-transform: translateX(100%) skewX(-30deg);
+        transform: translateX(100%) skewX(-30deg);
+        opacity: 0
+    }
+    60% {
+        -webkit-transform: translateX(-20%) skewX(30deg);
+        -ms-transform: translateX(-20%) skewX(30deg);
+        transform: translateX(-20%) skewX(30deg);
+        opacity: 1
+    }
+    80% {
+        -webkit-transform: translateX(0%) skewX(-15deg);
+        -ms-transform: translateX(0%) skewX(-15deg);
+        transform: translateX(0%) skewX(-15deg);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: translateX(0%) skewX(0deg);
+        -ms-transform: translateX(0%) skewX(0deg);
+        transform: translateX(0%) skewX(0deg);
+        opacity: 1
+    }
 }
 
 
